@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  video {
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: "IM Fell English SC", serif;
+    color: whitesmoke;
+    background-color: black;
+  }
+  
+  .pres {
+    padding-bottom: 5px;
+    width: 100%;
+    background-image: url(../remake/src/rosa\ suc.jpg);
+  }
+  
+  .pres p {
+    background-image: url(../src/marmol\ suc.jpg);
+    color: #261616;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+    height: 60px;
+    padding-top: 40px;
+    font-size: 20px;
+  }
+  
+  .menu ul {
+    font-family: "Roboto Slab", serif;
+    color: #d5ffd5;
+    background-image: url(../proyecto/src/marmol\ negro.jpg);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 50px;
+  }
+  
+  a {
+    color: grey;
+  }
+  
+  footer ul {
+    text-align: center;
+    color: #c7b0bc;
+    list-style-position: inside;
+    background-image: url(../proyecto/src/marmol\ negro.jpg);
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto Slab", serif;
+    height: 100px;
+    padding-top: 30px;
+  }
+  
+  .carta {
+    text-align: center;
+    background-image: url(../remake/src/principal.jpg);
+    width: 100%;
+    color: black;
+    font-family: "Roboto Slab", serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 100%;
+  }
+  
+  .carta .p {
+    color: black;
+    font-family: "Roboto Slab", serif;
+  }
+  
+  .carta h3 {
+    text-decoration: underline;
+    font-size: 20px;
+  }
+  
+  .carta img:hover {
+    transform: scale(1.1);
+  }
+  .vino {
+    text-align: center;
+    list-style-position: inside;
+    background-image: url(../proyecto/src/nurvo\ fondo.jpg);
+    font-family: "Fjalla One", sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+  }
+  
+  .resrv{
+    text-align: center;
+    
+    }
+    
+    .volver-inicio{
+         font-family: 'Roboto Slab', serif;
+    }
+    
+    .cont-sucursal{
+    background-image: url(../proyecto/src/pexels-ray-piedra-1565982.jpg);
+    height: 500px;
+    font-family: 'Fjalla One', sans-serif;
+    display: flex;
+    justify-content: center;
+    
+    }
+    
+    .cont-sucursal h2{
+         padding-top: 200px;
+         font-size: 80px;
+         color: rgba(255, 255, 255, 0.548);
+    }
+     
+    .nexos{
+    font-size: 30px;
+    color: rgba(209, 157, 89, 0.596);
+    
+    }
+    
+    
+    .suc {
+         display: grid;
+          grid-template-rows: 1fr 1fr 1fr;
+          grid-template-columns: 1fr;
+          border: black 2px solid;
+          padding-left: 50px;
+      font-size: 20px;
+     padding-top: 100px;
+     }
+    
+    
+    .suc h2{
+    
+         font-family: 'Fjalla One', sans-serif;
+         text-decoration: underline;
+         text-align: center;
+         color: antiquewhite;
+    }
+    
+    
+    .suc img{
+       position: relative;
+       display: flex;
+       padding-left: 250px;
+    
+    
+    }
+    
+    .suc{
+      background-image: url(../remake/src/pexels-alesia-kozik-6629941.jpg);
+    }
+    
+    .suc p{
+         text-align: center;
+         color: antiquewhite;
+    }
+    
+    .cont-vinos{
+         background-image: url(../remake/src/pexels-bruno-cantuária-774455.jpg); 
+       
+         height: 500px;
+         font-family: 'Fjalla One', sans-serif;
+         display: flex;
+         justify-content: center;
+    }
+    
+    .cont-vinos h2{
+         padding-top: 200px;
+         font-size: 80px;
+         color: rgba(255, 255, 255, 0.548);
+    }
+    
+    .cont-vinos ul{
+         position: absolute;
+         justify-content: right -0; top: -0;
+         font-family: 'Fjalla One', sans-serif;
+         color: rgba(255, 255, 255, 0.548);
+    }
+    
+    
+    .fondo-vino{
+           background-image: url(../proyecto/src/fondo-vinos.jpg);
+           text-align: center;
+      
+    }
+    
+    .tintos  p{
+       font-size: 20px;
+    }
+    
+    .blancos p {
+         font-size: 20px;
+    }
+    
+    .naranjos p{
+        text-align: center;
+    }
+     
+    .cont-tintos img{
+         padding-bottom: 1000px;
+    }
