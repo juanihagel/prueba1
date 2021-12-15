@@ -208,3 +208,113 @@
     .cont-tintos img{
          padding-bottom: 1000px;
     }
+
+   .main-reserv{
+    
+      background-image: url(../remake/src/pexels-bruno-cantuária-774455.jpg); 
+    
+      height: 500px;
+      font-family: 'Fjalla One', sans-serif;
+      display: flex;
+      justify-content: center;
+ }
+   
+   
+    #form{
+      box-sizing: border-box;
+      background: darkslategrey;
+      background-image: url(../imagenes/ciudadViena.jpg);
+      background-size: cover;
+  }
+  
+  .ciudad {
+      text-align: center;
+      font-family: 'Monserrat';
+      background-color: #24303c;
+      padding: 10px;
+      margin-top: 10px;
+      color: #1f53c5;
+  }
+  
+  .caja{
+          width: 400px;
+          background: #24303c;
+          padding: 10px;
+          margin: auto;
+          margin-top: 50px;
+          border-radius: 4px;
+          font-family: 'Monserrat';
+          color: white;
+          box-shadow: 7px 13px 37px #000;
+        }
+  
+        .caja p {
+          height: 40px;
+          text-align: center;
+          font-size: 18px;
+          color: white;
+        }
+  
+        .controls {
+            margin-top: 10px;
+          width: 90%;
+          background: #24303c;
+          padding: 10px;
+          border-radius: 4px;
+          margin-bottom: 16px;
+          border: 1px solid #1f53c5;
+          font-family: 'Monserrat';
+          font-size: 18px;
+          color: white;
+        }
+  
+        .caja a {
+          color: white;
+          text-decoration: none;
+        }
+      
+        .caja a:hover {
+          color: white;
+          text-decoration: underline;
+        }
+      
+        .caja .button {
+          width: 90%;
+          background: #1f53c5;
+          border: none;
+          padding: 10px;
+          color: white;
+          margin: 10px;
+          font-size: 16px;
+        }
+      
+        .temporada{
+          width: 80%;
+          background: #24303c;
+          padding: 10px;
+          margin-bottom: 16px;
+          font-family: 'Monserrat';
+          font-size: 18px;
+          color: white;
+        }
+      
+      .temporada {
+        text-align: center;
+          margin: auto;
+          
+        }
+      
+      option{
+        margin-top: 25px;
+          background: #24303c;
+          font-family: 'Monserrat';
+          font-size: 18px;
+          color: white;
+      }
+  
+  label{
+      font-family: 'Monserrat';
+      height: 40px;
+      text-align: center;
+      font-size: 18px;
+  }
