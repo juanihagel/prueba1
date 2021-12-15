@@ -167,7 +167,7 @@
     .cont-vinos{
          background-image: url(../remake/src/pexels-bruno-cantuária-774455.jpg); 
        
-         height: 500px;
+         height: 200px;
          font-family: 'Fjalla One', sans-serif;
          display: flex;
          justify-content: center;
@@ -213,12 +213,17 @@
     
       background-image: url(../remake/src/pexels-bruno-cantuária-774455.jpg); 
     
-      height: 500px;
+      height: 200px;
       font-family: 'Fjalla One', sans-serif;
       display: flex;
       justify-content: center;
  }
-   
+ 
+   .main-reserv h2{
+    
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.548);
+   }
    
     #form{
       box-sizing: border-box;
@@ -296,7 +301,18 @@
           color: white;
       }
   
-  label{
+      .comensales{
+        width: 80%;
+        background: #24303c;
+        padding: 10px;
+        margin-bottom: 16px;
+        font-family: 'Monserrat';
+        font-size: 18px;
+        color: white;
+      }
+ 
+ 
+      label{
       font-family: 'Monserrat';
       height: 40px;
       text-align: center;

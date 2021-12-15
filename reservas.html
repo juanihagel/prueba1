@@ -5,33 +5,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
     <title>reservas</title>
 </head>
 
 <body id="form">
 
     <header class="main-reserv">
-        <h1>reservas</h1>
+        <h2>reservas</h2>
     </header>
-    
+
     <main>
         <section class="caja">
             <h2 class="lugar">Lardo & Rosemary</h2>
-            <p>Si desea suscribirse al newsletter de la ciudad de Viena, ingrese sus datos en el siguiente formulario:
+            <p> Para reservar una mesa completa el siguiente formulario
             </p>
             <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre" />
-            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su apellido" />
-            <input class="controls" type="text" name="correo" id="correo" placeholder="Ingrese su correo electrónico"
-                required />
+
             <input class="controls" type="tel" name="numerocontactado" placeholder="Ingrese su número de telefono" />
 
-            <input type="radio" name="sexo" id="masc" value="m" />
-            <label for="masc"> Masculino </label>
-            <label>
-                <input type="radio" name="sexo" value="f" /> Femenino
+            <form method="post" action="recibir.php" class="temporada">
+                <div class="temporada">
+                    <label> cantidad de comensales </label>
+                    <select name="comensales">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+            </form>
 
-            </label>
-           
             <input class="button" type="submit" value="reservar" />
             <input class="button" type="reset" value="Borrar" />
         </section>
