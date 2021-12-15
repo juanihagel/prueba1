@@ -227,7 +227,7 @@
       background-size: cover;
   }
   
-  .ciudad {
+  .lugar{
       text-align: center;
       font-family: 'Monserrat';
       background-color: #24303c;
@@ -287,24 +287,8 @@
           margin: 10px;
           font-size: 16px;
         }
-      
-        .temporada{
-          width: 80%;
-          background: #24303c;
-          padding: 10px;
-          margin-bottom: 16px;
-          font-family: 'Monserrat';
-          font-size: 18px;
-          color: white;
-        }
-      
-      .temporada {
-        text-align: center;
-          margin: auto;
-          
-        }
-      
-      option{
+    
+        option{
         margin-top: 25px;
           background: #24303c;
           font-family: 'Monserrat';
